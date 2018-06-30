@@ -1,0 +1,41 @@
+#GitHub commands
+
+
+# Git config
+  #System level
+  git config --system
+    git config --global --list
+    git config --global user.name "Tomasz K"
+    git config --global user.email "test@mail.com"
+  #User level
+  git config --global
+
+  #Repository level
+  git config
+
+  #skopiowanie plikow z git na lokalne repozytorium
+  git clone /home/tomasz/Documents/Git
+
+  #roznica miedzy lokalnym repo a repo w Git
+  git status
+  #dodanie pliku
+  git add file.name
+  #dodanie wszystkich plików (tylko update i usuniecie!)
+  git add -u
+  #dodanie wszystkich plików (dodanie!)
+  git add -A
+  git push
+  git pull
+
+  git commit
+  git commit -m "comment"
+
+  #changes in Git
+  git log
+
+  git diff change.nb..change.nb
+  #HEAD = ostatia zmiania, HEAD-1 ostania -1 zmiana
+  git diff HEAD~1..HEAD
+
+  #otwarcie pliku
+  vim file.name

@@ -1,0 +1,6 @@
+#linux command lines
+
+cd - wejscie do folderu
+cd .. - powrot do folderu poprzedniego
+
+ls - lista dokumentów w repozytorium
