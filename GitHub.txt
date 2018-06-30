@@ -18,12 +18,15 @@
 
   #roznica miedzy lokalnym repo a repo w Git
   git status
+
   #dodanie pliku
   git add file.name
   #dodanie wszystkich plików (tylko update i usuniecie!)
   git add -u
   #dodanie wszystkich plików (dodanie!)
   git add -A
+
+  #dodanie zmian do GitHub z lokalnego repo
   git push
   git pull
 
